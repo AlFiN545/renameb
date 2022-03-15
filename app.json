@@ -5,7 +5,7 @@
         "Renamer Bot",
         "Mongo DB"
     ],
-    "repository": "https://github.com/lntechnical2/RENAMER_BOT",
+    "repository": "https://github.com/AlFiN545/renameb",
     "success_url": "https://telegram.dog/lntechnical",
     "env": {
         "APP_ID": {
@@ -30,7 +30,7 @@
         "DB_NAME":{ 
                "description":"Your Mongo DB Database Name ",
                 "value": "my",
-                "required": false
+                "required": true
         }
     },
     "buildpacks": [
